@@ -38,6 +38,7 @@ The hexagon is broken into different parts depending on if they contain zeros or
     ```math
     \binom{m}{n}=\frac{m!}{n!(m-n)!}
     ```
+
     - Otherwise:
     ```math
     \binom{m}{n}=0
@@ -47,10 +48,12 @@ The hexagon is broken into different parts depending on if they contain zeros or
     ```math
     \binom{m}{n}=(-1)^n \binom{-m+n-1}{n}
     ```
+
     - If $` m \geq n `$:
     ```math
     \binom{m}{n}=(-1)^{m+n} \binom{-n-1}{-m-1}
     ```
+    
     - Otherwise:
     ```math
     \binom{m}{n}=0
