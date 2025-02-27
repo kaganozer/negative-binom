@@ -34,30 +34,30 @@ The `binom` function extends the definition to handle negative values of m and n
 The hexagon is broken into different parts depending on if they contain zeros or non-zeros. Formulas below then can be used to determine the values of the binomial coefficients:
 
 1. Standard case $` (m \geq 0) `$
-    - If $` m \geq n \geq 0 `$:
-    ```math
-    \binom{m}{n}=\frac{m!}{n!(m-n)!}
-    ```
+- If $` m \geq n \geq 0 `$:
+```math
+\binom{m}{n}=\frac{m!}{n!(m-n)!}
+```
 
-    - Otherwise:
-    ```math
-    \binom{m}{n}=0
-    ```
+- Otherwise:
+```math
+\binom{m}{n}=0
+```
 2. Extended case $` (0 > m) `$
-    - If $` n \geq 0 `$:
-    ```math
-    \binom{m}{n}=(-1)^n \binom{-m+n-1}{n}
-    ```
+- If $` n \geq 0 `$:
+```math
+\binom{m}{n}=(-1)^n \binom{-m+n-1}{n}
+```
 
-    - If $` m \geq n `$:
-    ```math
-    \binom{m}{n}=(-1)^{m+n} \binom{-n-1}{-m-1}
-    ```
-    
-    - Otherwise:
-    ```math
-    \binom{m}{n}=0
-    ```
+- If $` m \geq n `$:
+```math
+\binom{m}{n}=(-1)^{m+n} \binom{-n-1}{-m-1}
+```
+
+- Otherwise:
+```math
+\binom{m}{n}=0
+```
 
 This extended definition of binomial coefficients makes it possible to work with negative values of $m$ and $n$.
 
