@@ -11,7 +11,7 @@ pip install negative-binom
 ## Usage
 Import the function and use it as follows:
 ```python
-from negative-binom import binom
+from negative_binom import binom
 
 # Standard case:
 print(binom(5, 2)) # Output: 10
