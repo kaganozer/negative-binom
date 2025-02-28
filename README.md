@@ -59,7 +59,7 @@ The hexagon is broken into different parts depending on if they contain zeros or
 \binom{m}{n}=0
 ```
 
-This extended definition of binomial coefficients makes it possible to work with negative values of $m$ and $n$.
+This extended definition of binomial coefficients makes it possible to work with negative values of $` m `$ and $` n `$.
 
 ## Personal Notes
 I made this package because I needed a binomial function that included negative arguments as well. `math.comb` results in error and `scipy.stats.binom` sets the result to 0 for negative arguments, so they didn't work for me. Hope this helps anyone else.
