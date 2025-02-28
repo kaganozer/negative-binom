@@ -4,12 +4,14 @@ A binomial function that extends the domain of combinations to include negative 
 
 ## Installation
 You can install the package using:
+
 ```bash
 pip install negative-binom
 ```
 
 ## Usage
 Import the function and use it as follows:
+
 ```python
 from negative_binom import binom
 
@@ -24,9 +26,11 @@ print(binom(-5, -2)) # Output: 0
 
 ## Mathematical Explanation
 The binomial coefficient is traditionally defined as:
+
 ```math
 \binom{m}{n} = \frac{m!}{n!(m-n)!}, \quad \text{for }m \geq n \geq 0
 ```
+
 The `binom` function extends the definition to handle negative values of m and n using "The Pascal Hexagon" provided by Hilton and Pedersen in [Extending the Binomial Coefficients to Preserve Symmetry and Pattern](https://doi.org/10.1016/B978-0-08-037237-2.50013-1):
 
 <img src="pascals_hexagon.png" width="450" alt="Pascal's Hexagon"/>
@@ -43,6 +47,7 @@ The hexagon is broken into different parts depending on if they contain zeros or
 ```math
 \binom{m}{n}=0
 ```
+
 2. Extended case $` (0 > m) `$
 - If $` n \geq 0 `$:
 ```math
