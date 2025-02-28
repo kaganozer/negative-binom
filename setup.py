@@ -13,7 +13,7 @@ long_description = (
 
 setup(
     name="negative-binom",
-    version="0.1.2",
+    version="0.1.4",
     packages=find_packages(),
     install_requires=[],
     author="Kağan Özer",
